@@ -8,7 +8,8 @@
     "access": "public"
   },
   "scripts": {
-    "start": "tsc && node .",
+    "start": "node ./dist/main.js open",
+    "build": "tsc", // Zkompiluje TypeScript (pokud je potřeba)
     "test": "echo \"No test specified\""
   },
   "author": "gabrielbrop",
