@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node ./dist/main.js open",
-    "build": "tsc", // Zkompiluje TypeScript (pokud je potřeba)
+    "build": "tsc", 
     "test": "echo \"No test specified\""
   },
   "author": "gabrielbrop",
